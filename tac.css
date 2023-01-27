@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Lucida Sans;
+}
+html{
+    background-color:bisque
+}
+#txt,h3{
+    margin-left: 30px;
+    padding: 10px;
+}
+h1{
+    /* position: fixed; */
+    width: 98.7%;
+    padding: 10px;
+    background-color: rgb(145, 146, 146);
+    text-align: center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3 ,1fr);
+    row-gap: 0;
+    column-gap: 0;
+    margin-left: 35%;
+    margin-right: 35%;
+    cursor: pointer;
+}
+.cell{
+    font-size: 40px;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+#cell1:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell2:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell3:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell4:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell5:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell6:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell7:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell8:hover{
+    background-color:rgb(227, 220, 217);
+}
+#cell9:hover{
+    background-color:rgb(227, 220, 217);
+}
+#btn{
+    margin-left :47%;
+    margin-top: 2%;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color:rgb(1, 54, 11);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+}
+#btn:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    border-color: aquamarine;
+    animation: ani;
+    animation-duration: 1s;
+}
+@keyframes ani {
+    from{background-color: aquamarine;}
+    to {background-color: bisque;}    
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 20px;
+}
